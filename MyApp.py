@@ -72,7 +72,7 @@ class MyPath(tk.Frame):
         #src = "/Users/matt/Documents/Python/MyApp.py"
         #dst = data
         #path = pickle.load(open("save.p", "rb"))
-        os.system('Explorer "%s"' % favorites.txt)
+        os.system('Explorer "%s"' % data[0])
 
 master = Tk()
 
